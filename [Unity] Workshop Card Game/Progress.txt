@@ -1,0 +1,138 @@
+Project : Cartomancer
+Deadline : 9/01/2025
+
+TODO: Task to do
+DOIN: Task in progress
+DONE: Task completed
+LATR: Non-priority task
+MAYB: Possible future task
+NEXT: Next task to do (priority)
+WAIT: Pending task
+FIX:  Fix
+
+Next tasks : ? Button > Pause & Restart > Dynamic lights
+
+Tasks : 
+--------------------------------------------------------------------------------
+DOIN: Cartomancer : 17.75/22.0
+    DONE: Menu Settings : 4.0/4.0
+        DONE: Other : 3.75/3.75
+        DONE: FIX navigation problem when using settings from menu : 0.25/0.25
+    DONE: Custom cursor : 0.25/0.25
+        DONE: Create sprite
+        DONE: Implement
+    DONE: Level end buttons : 0.5/0.5
+    DONE: Main menu modifications : 0.25/0.25
+        DONE: Add button to navigate to title screen : 0.125/0.125
+        DONE: Add button to return to desktop : 0.125/0.125
+    DONE: Level select : 1.0/1.0
+        DONE: Create a save system to remember accessible levels : 0.5/0.5
+        DONE: Make the inacessible level non-clickable : 0.25/0.25
+        DONE: Display inacessible levels differently : 0.25/0.25
+    DONE: Music loop : 0.5/0.5
+        DONE: Fix all music glitches
+        DONE: Fix music starting on credits
+        DONE: Fix missing script in Title screen
+    DONE: CardPrefab : 3.0/3.0
+        DONE: Fix name display
+        DONE: Fix collisions
+        DONE: Fix card superposition : 0.25/0.25
+        DONE: Make card size modifiable : 1.0/1.0
+        DONE: Change the rigidity to weight (update system too)
+        DONE: Recreate all prefab variations : 0.5/0.5
+            DONE: All basic cards
+            DONE: Recreate special behaviours (wanderer, the void)
+            DONE: Recreate inventory for cards that have one
+        DONE: Replace all existing card in levels : 0.5/0.5
+        DONE: Update SFXs : 0.5/0.5
+        DONE: Apply appropriate weight to all cards : 0.25/0.25
+    DONE: Menu Grimoire : 5.0/5.0
+        DONE: Create all sprites : 0.5/0.5
+            DONE: Fond
+                DONE: Page pour les cartes standard
+                DONE: Page pour les carte speciales (avec ornements)
+                DONE: Arrows to navigate through pages
+            DONE: Pop-up des recettes
+                DONE: Background
+                DONE: Fusion sans consommation de la carte
+                DONE: Fusion avec consommation de la carte
+                DONE: Creation by clicking on another card
+                DONE: Icon card to represent used desk elements
+                    DONE: Crucifix
+                    DONE: Bougie
+                    DONE: Encrier
+                    DONE: Miroir
+                    DONE: Sablier
+        DONE: Create object based on pause menu / settings
+        DONE: Reposition back button
+        DONE: Add navigation buttons
+        DONE: Create page for normal cards
+        DONE: Create script for grimoire display
+        DONE: Make all pages navigables
+        DONE: Limit navigation
+            DONE: Before first page
+            DONE: After last page
+        DONE: Add pages for special cards
+            DONE: Add to the total number of pages for navigation limitation (should work)
+        DONE: Adjust cards position
+            DONE: Normal cards
+            DONE: Special cards
+        DONE: Add Illustrations (buttons)
+            DONE: Normal pages
+            DONE: Special pages
+        DONE: Display card name
+        DONE: Show discovered cards and hide unknown cards
+        DONE: Add sprites for unknown cards
+            DONE: Normal card
+            DONE: Special card
+        DONE: Recipes
+            DONE: Fetch and store recipes in the CardData list
+            DONE: Store recipes in GrimoireCard
+            DONE: Make recipe appear when clicked
+                DONE: Fusion
+                    DONE: Display background
+                    DONE: Display cards
+                    DONE: Card consumable or not
+                DONE: Click recipes
+                    DONE: Display background
+                    DONE: Display cards
+                    DONE: Card consumable or not
+                DONE: Make recipes navigables
+            DONE: Unknow recipe
+        DONE: Button in riddles to access grimoire
+        DONE: Save known cards
+    DONE: Mode Sandbox : 3.0/3.0
+        DONE: Accessible from mode select
+        DONE: Create another version of LevelManager
+        DONE: Memorize discovered cards and recipes
+        DONE: Known cards and recipes must be common to all game modes
+        DONE: Input system to create cards
+        DONE: Button to access grimoire
+    DOIN: ? Button : 0.0/2.0
+        DONE: Add button to riddle mode
+        TODO: Add button to sandbox mode
+        DONE: Create explanation image for riddles
+        TODO: Create explanation image for sandbox
+    DOIN: Pause & Restart buttons : 0.25/0.5
+        DONE: Create sprite : 0.25/0.25
+        TODO: Implement buttons : 0.0/0.25
+    DOIN: Dynamic lights : 0.0/2.0
+        DONE: Candle-style light effect
+        DONE: Apply on cursor
+        TODO: Apply on Candle
+        TODO: Reduce light emitted by cursor when candle is on the level
+    TODO: Various fixes
+        TODO: Grimoire
+            TODO: Cards discovering should be immediatly effecting the grimoire
+            TODO: Add wanderer recipe to the grimoire
+            TODO: Add default "unknow recipe" background in the grimoire
+            TODO: Fix some cards that don't appear correctly on recipes
+        TODO: Level Manager
+            TODO: Update the escape system to manage pause, settings and grimoire
+
+
+Cartomancer: [████████████████████████████████────────] 80.7%
+--------------------------------------------------------------------------------
+LATR: Add opening animation to grimoire
+LATR: Add turning pages animations to grimoire
+LATR: Don't display unknown card names ?

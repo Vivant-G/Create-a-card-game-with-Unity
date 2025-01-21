@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Card
+  - Grimoire
+  - Desk Element
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Card
+  - UIText
+  - Buttons
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Table
+    uniqueID: 2858335637
+    locked: 0
+  - name: Playmat
+    uniqueID: 260117505
+    locked: 0
+  - name: Card
+    uniqueID: 649129765
+    locked: 0
+  - name: UI
+    uniqueID: 4198479625
+    locked: 0
+  - name: UIText
+    uniqueID: 583299943
+    locked: 0
