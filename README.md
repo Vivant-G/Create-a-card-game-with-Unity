@@ -83,3 +83,6 @@ Si vous réalisez le workshop sans accompagnement, il est recommandé de s'aider
 - Réutiliser vos compétences pour vos propres projets.
 
 A vos cartes... feu... partez ! 🎉
+
+
+Non, ce markdown n'a pas été fait avec ChatGPT. Je sais, on dirait.
